@@ -1,0 +1,221 @@
+
+.detailWarp{
+    width: 100%;
+    height: 100%;
+    padding: 0 50px;
+}
+.detailContainer{
+    width : 100%;
+    height: 500px;
+    position: relative;
+}
+.detailContainer > .detailLeft,
+.detailContainer > .detailRight {
+    display: inline-block;
+    width : 50%;
+    color: #fff;
+    height: auto;
+}
+.detailContainer > .detailLeft{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+}
+.detailContainer > .detailRight{
+    position: absolute;
+    top: 60px;
+    right: 0;
+    padding: 0 20px;
+    height: 80%;
+}
+
+/* 오른쪽 가격정보 */
+
+.detailContainer > .detailRight > div:nth-child(1){
+    padding: 20px 0 0 30px;
+    margin-top: 50px;
+}
+
+.detailContainer > .detailRight > div:nth-child(2){
+    position: relative;
+    top: 20px;
+}
+
+.rightSale > span:nth-child(1){
+    color: rgb(240, 111, 111);
+    margin-right: 10px;
+}
+.rightSale {
+    margin: 10px 0;
+}
+
+.detailContainer > .detailRight > div:nth-child(2){
+    text-align: center;
+}
+.detailContainer > .detailRight > div:nth-child(2) > div{
+    color: #fff;
+    display: inline-block;
+    width: 50%;
+}
+
+.buttonContainer > input{
+    width: 50px;
+    height: 21.5px;
+    margin-top: 1.8px;
+    text-align: center;
+}
+.buttonContainer > button{
+    width: 40px;
+    height: 100%;
+    border: 1px solid gray;
+    color: #fff;
+}
+
+.saleButton{
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    display: inline-block;
+    background-color: rgb(206, 228, 248);
+}
+/* 밑에 navbar */
+
+.navBar{
+    clear: both;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    width: 100%;
+}
+.navBar > ul {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+    border-top: 1px solid gray;
+    padding: 5px 0;
+}
+.navBar > ul > li {
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.detailDataContainer{
+    color: #fff;
+}
+
+.infoContainer, .cancleContainer{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.infoContainer > h2{
+    margin: 20px 0;
+}
+.infoContainer > .infoTopContainer{
+    border: 1px solid gray;
+    border-top: 3px solid gray;
+    margin: 20px 0;
+}
+.infoContainer > .infoTopContainer > div{
+    margin: 20px;
+}
+.infoContainer > .infoTopContainer > div > h2{
+    margin: 10px 0;
+}
+
+.infoContainer > .infoMidContainer {
+    margin: 0 auto;
+    width: 80%;
+    height: 700px;
+}
+
+.infoContainer > .infoMidContainer > img{
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+/* 평점 */
+.Stars {
+    display: inline-block;
+    padding-top: 5px;
+    margin-top: 10px ;
+}
+.Stars .black {
+    color : gray;
+}
+.Stars .yellow {
+    color: #fcc419;
+}
+.starContainer{
+    display: inline-block;
+    width: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+.inputTitle, .inputInfo {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.inputTitle > label,
+.inputInfo > label {
+    display: block;
+    margin: 10px 0;
+}
+.inputTitle > input{
+    width: 100%;
+    height: 40px;
+}
+.inputInfo > textarea{
+    width: 100%;
+    height: 200px;
+}
+
+/* input 버튼 */
+
+.inputButton{
+    width: 70%;
+    margin: 10px auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.inputButton button:nth-child(1){
+    width: 40%;
+    height: 40px;
+    background: #fff;
+}
+.inputButton button:nth-child(2){
+    width: 40%;
+    height: 40px;
+    background: #fff;
+}
+
+.reviewContainer{
+    margin-top: 40px;
+    height: 600px;
+}
+
+/* 교환 반품 */
+.cancleContainer{
+    width: 100%;
+    margin: 30px auto;
+}
+
+.cancleContainer > div{
+    border: 1px solid gray;
+    margin: 20px 0;
+    padding: 10px ;
+}
+.cancleContainer > div > h4 {
+    margin-bottom: 10px;
+}
